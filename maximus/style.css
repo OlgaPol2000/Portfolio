@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+ol,
+ul,
+menu {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.body{
+    font-family: 'Roboto' sans-serif;
+    font-weight: 400;
+}
+
+/*font-family: 'Alegreya Sans', sans-serif;
+font-family: 'Roboto', sans-serif;*/
