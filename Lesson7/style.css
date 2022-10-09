@@ -1,0 +1,45 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    /* властивість яка вказує шрифт */
+}
+
+.text{
+    font-size: 36px;
+    /* властивість яка задає розмір шрифта */
+    font-weight: 400;
+    /* властивість яка задає товщину шрифта */
+    font-style: italic;
+    /* властивість яка означає написання тексту курсив або нормал */
+    letter-spacing: 6px;
+    /* властивість яка визначає віддстань між буквами */
+    line-height: 46px;
+    /* властивість яка задає висоту стрічки */
+    text-transform: uppercase;
+    /* властивість яка робить всі букви в реченні або слові з великої літери */
+    text-transform: capitalize;
+    /* властивість яка робить всі перші букви в реченні з великої літери */
+    text-transform: lowercase;
+    /* властивість яка робить всі букви в реченні або слові з малої літери */
+    text-decoration: line-through;
+    /* властивість яка робе текст закресленим */
+    text-decoration: overline;
+    /* властивість яка робить полоску над текстом */
+    text-decoration: underline;
+    /* властивість яка робить текст підкресленим */
+    text-decoration-color: red;
+    /* властивість яка стилізує лінію декорації */
+    text-align: center;
+    /* вирвнювання тексту по центру */
+    text-shadow: 0px 5px 5px rgb(255, 251, 0); 
+    /* задає тінь для тексту */
+}
+
+.styled__text{
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 20px;
+    color: blue;
+    letter-spacing: 1px;
+    text-decoration: uppercase;
+    text-align: center;
+}

@@ -1,0 +1,55 @@
+.list{
+    background-color: black;
+    padding: 60px 60px 60px 60px;
+}
+
+.red{
+    background-color: red;
+    margin-bottom: 25px;
+}
+
+.pink{
+    background-color: pink;
+    margin-bottom: 25px;
+}
+
+.green{
+    background-color: green;
+    margin-bottom: 25px;
+}
+
+.blue{
+    background-color: blue;
+    margin-bottom: 25px;
+}
+
+.violet{
+    background-color: violet;
+    margin-bottom: 25px;
+}
+
+.square{
+    background-color: green;
+    height: 200px;
+    width: 200px;
+}
+
+.round{
+    background-color: red;
+    height: 200px;
+    width: 200px;
+    border-radius: 100%;
+    border: 5px dashed green;
+}
+
+.button{
+    padding: 10px;
+    background-color: white;
+}
+
+.text{
+    background-color: black;
+    color: white;
+}
+
+
