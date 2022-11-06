@@ -4,41 +4,415 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@400;500;700&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@400;500;700&family=Roboto:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
     <title>Maximus</title>
   </head>
   <body>
     <section class="hero" style="background-image: url(./img/bg.jpg)">
       <div class="container">
-      <nav class="nav">
-        <a class="logo" href="/" >
-          <img src="./img/icons/logo.png" alt="logo__img">
-        </a>
-        <ul class="nav__list">
-          <li class="nav__item"><a href="#" class="nav__link">Про нас</a>
+        <nav class="nav">
+          <a class="logo" href="/">
+            <img src="./img/icons/logo.png" alt="logo__img" />
+          </a>
+          <ul class="nav__list">
+            <li class="nav__item"><a href="#about" class="nav__link">Про нас</a></li>
+            <li class="nav__item">
+              <a href="#" class="nav__link">Послуги та ціни</a>
+            </li>
+            <li class="nav__item">
+              <a href="#" class="nav__link">Фотоальбом</a>
+            </li>
+            <li class="nav__item">
+              <a href="#" class="nav__link">Контакти</a>
+            </li>
+          </ul>
+          <div class="nav__phone">
+            <a href="tel:+380 000-00-00" class="nav__phone-link"
+              >+380 000-00-00</a
+            >
+            <span class="nav__phone-text">Кожного дня 9:00 – 22:00</span>
+          </div>
+          <h1></h1>
+          <h2></h2>
+        </nav>
+        <h1 class="hero__title">Пориньте в світ коней разом з нами</h1>
+        <h2 class="hero__subtitle">
+          Уроки поверхневої їзди, фотосесії та заход в частному клубі коней
+          <span class="hero__town">м.Львів</span>
+        </h2>
+        <button class="hero__button">записатись</button>
+      </div>
+    </section>
+    <section class="about" id="about">
+      <div class="container">
+        <h2 class="title">О нашем клубе</h2>
+        <div class="about__inner">
+          <img class="about__img" src="./img/icons/horse.jpg" alt="horse" />
+          <ul class="about__list">
+            <li class="about__item">
+              <p class="about__number">1100+</p>
+              <p class="about__item-text">
+                Задоволений відвідувач за останій рік
+              </p>
+            </li>
+            <li class="about__item">
+              <p class="about__number">50+</p>
+              <p class="about__item-text">Проведених заходів за 6 місяців</p>
+            </li>
+            <li class="about__item">
+              <p class="about__number">15+</p>
+              <p class="about__item-text">
+                Регулярне заняття на тиждень із професійними наставниками
+              </p>
+            </li>
+            <li class="about__item">
+              <p class="about__number">20+</p>
+              <p class="about__item-text">
+                випущених професійних спортсменів за 1 рік
+              </p>
+            </li>
+          </ul>
+        </div>
+        <p class="about__description">
+          Заняття проводяться індивідуально і в групах, вартість також
+          залежатиме від ваших навичок і умінь. Більш вигідні умови передбачені
+          для регулярних занять при купівлі абонементів. Для тих, хто хоче
+          відточити свою майстерність, розроблено програми зі спеціалізації
+          (конкур, виїздка та інші), участь у змаганнях та чемпіонатах. Для
+          найменших любителів коней діють поні-клуби, де хлопці вчаться
+          доглядати тварин і їздити на милих і добрих поні.
+        </p>
+      </div>
+    </section> 
+    <section class="winner">
+      <div class="container">
+        <h2 class="title winner--text">Чому нас обирають</h2>
+        <h3 class="subtitle">Подзаголоволок блоку</h3>
+        <ul class="winner__list">
+          <li class="winner__item winner__item--point">
+            <h4 class="winner__title">Зручне розташування</h4>
+            <p class="winner__description">
+              Ми знаходимось недалеко від автостації Східний щоб вам було зручно
+            </p>
           </li>
-          <li class="nav__item"><a href="#" class="nav__link">Послуги та ціни</a>
+          <li class="winner__item winner__item--table">
+            <h4 class="winner__title">Обідня зона</h4>
+            <p class="winner__description">
+              Є їдальня, щоб Ви могли перекусити та трохи відпочити. Безкоштовно
+              чай, кава, печиво.
+            </p>
           </li>
-          <li class="nav__item"><a href="#" class="nav__link">Фотоальбом</a>
+          <li class="winner__item winner__item--clock">
+            <h4 class="winner__title">Професіональні тренера</h4>
+            <p class="winner__description">
+              Наші викладачі мають нагороди у кінному спорті, та відмінні
+              відгуки серед наших учнів
+            </p>
           </li>
-          <li class="nav__item"><a href="#" class="nav__link">Контакти</a>
+          <li class="winner__item winner__item--car">
+            <h4 class="winner__title">Безкоштовна парковка</h4>
+            <p class="winner__description">
+              У нас є просторе паркування, щоб ви могли без проблем припаркувати
+              свій автомобіль
+            </p>
           </li>
         </ul>
-        <div class="nav__phone">
-          <a href="tel:+380 000-00-00" class="nav__phone-link">+380 000-00-00</a>
-          <span class="nav__phone-text">Кожного дня 9:00 – 22:00</span>
-        </div>
-        <h1></h1>
-        <h2></h2>
-      </nav>
-      <h1 class="hero__title">Понирьте в світ коней разом з нами</h1>
-    <h2 class="hero__subtitle">Уроки поверхневої їзди, фотосесії та заход в частному клубі коней</h2>
-    <span>м.Львів</span>
-    <button class="hero__buttom">записатись</button>
-    </div>
+      </div>
     </section>
+     <section class="direction">
+      <div class="container">
+        <h2 class="direction--title title"></h2>
+        <h3 class="subtitle"></h3>
+        <ul class="direction__list">
+          <li class="direction__item">
+            <img
+              class="direction__img"
+              src="./img/direction/1.jpg"
+              alt="horses"
+            />
+            <h4 class="direction__title">Уроки верхової їзди</h4>
+            <p class="direction__description">
+              Уроки професійної верхової їзди для любителів та початківців
+            </p>
+          </li>
+          <li class="direction__item">
+            <img
+              class="direction__img"
+              src="./img/direction/2.jpg"
+              alt="horses"
+            />
+            <h4 class="direction__title">Прогулянки верхи</h4>
+            <p class="direction__description">
+              Тренування клієнтів, підготовка до занять кінним спортом
+            </p>
+          </li>
+          <li class="direction__item">
+            <img
+              class="direction__img"
+              src="./img/direction/3.jpg"
+              alt="horses"
+            />
+            <h4 class="direction__title">Фотосесії</h4>
+            <p class="direction__description">
+              Уроки профессиональной верховой езды для любителей и начинающих
+            </p>
+          </li>
+          <li class="direction__item">
+            <img
+              class="direction__img"
+              src="./img/direction/4.png"
+              alt="horses"
+            />
+            <h4 class="direction__title">Прогулянки верхи з тренером</h4>
+            <p class="direction__description">
+              Тренування клієнтів, підготовка до занять кінним спортом на
+              професійному рівні під керівництвом досвідчених тенерів
+            </p>
+          </li>
+          <li class="direction__item">
+            <img
+              class="direction__img"
+              src="./img/direction/5.jpg"
+              alt="horses"
+            />
+            <h4 class="direction__title">Фотосесії</h4>
+            <p class="direction__description">
+              Уроки профессиональной верховой езды для любителей и начинающих
+            </p>
+          </li>
+          <li class="direction__item">
+            <img
+              class="direction__img"
+              src="./img/direction/6.png"
+              alt="horses"
+            />
+            <h4 class="direction__title">Прогулянки верхи з тренером</h4>
+            <p class="direction__description">
+              Тренування клієнтів, підготовка до занять кінним спортом на
+              професійному рівні під керівництвом досвідчених тенерів
+            </p>
+          </li>
+        </ul>
+        <button class="direction--button button">записатись</button>
+      </div>
+    </section> 
+     <section class="visitors">
+      <div class="visitors--container container">
+        <h2 class="visitors--title title">Наші відвідувачі</h2>
+        <ul class="visitors__list">
+          <li class="visitors__item">
+            <span class="visitors__bg"></span>
+            <img class="visitors__img" src="./img/visitors/1.jpg" alt="photo people" />
+          </li>
+          <li class="visitors__item">
+            <span class="visitors__bg"></span>
+            <img class="visitors__img" src="./img/visitors/2.jpg" alt="photo people" />
+          </li>
+          <li class="visitors__item">
+            <span class="visitors__bg"></span>
+            <img class="visitors__img" src="./img/visitors/3.jpg" alt="photo people" />
+          </li>
+          <li class="visitors__item">
+            <span class="visitors__bg"></span>
+            <img class="visitors__img" src="./img/visitors/4.jpg" alt="photo people" />
+          </li>
+          <li class="visitors__item">
+            <span class="visitors__bg"></span>
+            <img class="visitors__img" src="./img/visitors/5.jpg" alt="photo people" />
+          </li>
+          <li class="visitors__item">
+            <span class="visitors__bg"></span>
+            <img class="visitors__img" src="./img/visitors/6.jpg" alt="photo people" />
+          </li>
+          <li class="visitors__item">
+            <span class="visitors__bg"></span>
+            <img class="visitors__img" src="./img/visitors/7.jpg" alt="photo people" />
+          </li>
+          <li class="visitors__item">
+            <span class="visitors__bg"></span>
+            <img class="visitors__img" src="./img/visitors/8.jpg" alt="photo people" />
+          </li>
+          <li class="visitors__item">
+            <span class="visitors__bg"></span>
+            <img class="visitors__img" src="./img/visitors/9.jpg" alt="photo people" />
+          </li>
+          <li class="visitors__item">
+            <span class="visitors__bg"></span>
+            <img class="visitors__img" src="./img/visitors/10.jpg" alt="photo people" />
+          </li>
+        </ul>
+      </div>`
+    </section> 
+     <section class="horses">
+      <div class="container">
+        <h2 class="title horses--title">Наші коні</h2>
+        <ul class="horses__list">
+          <li class="horses__item">
+            <img class="horses__img" src="./img/horse/1.jpg" alt="horses" />
+            <h3 class="horses__title">Юджин</h3>
+            <p class="horses__description">
+              Уроки порфесійної верхової їзди для зацікавлених та початкових
+            </p>
+          </li>
+          <li class="horses__item">
+            <img class="horses__img" src="./img/horse/2.jpg" alt="horses" />
+            <h3 class="horses__title">Меліса</h3>
+            <p class="horses__description">
+              Уроки професійної верхової їзди для любителів та початківців
+            </p>
+          </li>
+          <li class="horses__item">
+            <img class="horses__img" src="./img/horse/3.jpg" alt="horses" />
+            <h3 class="horses__title">Ціан</h3>
+            <p class="horses__description">
+              Уроки професійної верхової їзди для любителів та початківців
+            </p>
+          </li>
+          <li class="horses__item">
+            <img class="horses__img" src="./img/horse/4.jpg" alt="horses" />
+            <h3 class="horses__title">Хесана</h3>
+            <p class="horses__description">
+              Уроки професійної верхової їзди для любителів та початківців
+            </p>
+          </li>
+          <li class="horses__item">
+            <img class="horses__img" src="./img/horse/5.jpg" alt="horses" />
+            <h3 class="horses__title">Жазель</h3>
+            <p class="horses__description">
+              Уроки професійної верхової їзди для любителів та початківців
+            </p>
+          </li>
+        </ul>
+      </div>
+    </section> 
+     <section class="question" style="background-image: url(./img/question/question_bg.png);">
+     <div class="container">
+        <form class="question__form">
+          <h2 class="question__title">Відповідаємо на запитання</h2>
+          <p class="question__description">
+            Ми відповімо на всі ваші запитання по телефону, або ви можете
+            записатись на безкоштовне пробне заняття
+          </p>
+          <label for="" class="question__lable">
+            <input class="question__input" type="text" placeholder="Ваше ім'я" />
+          </label>
+          <label class="question__lable">
+            <input class="question__input" type="tel" placeholder="Ваш телефон" />
+          </label>
+          <button class="question--button button">Задати питання</button>
+          <div class="question__inner">
+          <label for="" class="question__lable-checkbox"></label>
+          <p class="question__data">
+            Даю згоду на<a href="#">обробку даних</a>
+          </p>
+        </div>
+        </form>
+      </div>
+    </section> 
+     <section class="comments">
+      <div class="container">
+        <h2 class="title">О нас говорят клиенты</h2>
+        <ul class="comments__list">
+          <li class="comments__item">
+            <article class="comments__article">
+              <p class="comments__description">Развивает силу, гибкость и координацию всадника; Выпрямляется осанка и повышается стрессоустойчивость; Общение с лошадью лечит умственные отклонения.</p>
+              <button class="comment__btn">Подробнее</button>
+              <div class="comments__inner">
+                <img src="./img/comments/1.jpg" alt="comment photo" class="comments__img">
+                <div class="comments__social">
+                  <p class="commments__name">Константин Сюткин</p>
+                  <a href="" class="comments__link">instagram</a>
+                </div>
+              </div>
+            </article>
+          </li>
+          <li class="comments__item">
+            <article class="comments__article">
+              <p class="comments__description">
+                Позитивні емоції, розслаблення, почуття відповідальності і навіть деякої казковості, одразу з'являється гарна постава, працюють усі групи м'язів.</p>
+              <button class="comment__btn">Подробнее</button>
+              <div class="comments__inner">
+                <img src="./img/comments/2.jpg" alt="comment photo" class="comments__img">
+                <div class="comments__social">
+                  <p class="commments__name">Валентина Сорокина</p>
+                  <a href="" class="comments__link">instagram</a>
+                </div>
+              </div>
+            </article>
+          </li>
+        </ul>
+      </div>
+    </section> 
+     <section class="contacts" style="background-image: url(./img/conatcts/bg.jpg);">
+      <div class="container">
+        <div class="contacts__inner">
+          <h2 class="contacts--title title">Контакти</h2>
+          <ul class="contacts__list">
+            <li class="contacts__item contacts__item--pin">Вул. Леніна, 25, офіс 65</li>
+            <li class="contacts__item contacts__item--phone">
+              <a href="tel:+380970000000" class="contacts__link">+38 097 0000000</a>
+            </li> 
+            <li class="contacts__item contacts__item--mail">
+              <a href="to:mail@somail.com" class="contacts__link">mail@somail.com</a>
+            </li> 
+            <li class="contacts__item contacts__item--clock">
+              <ul class="contacts__adsress">
+                <li class="contacts__address-item">Пн-Пт 10:00 - 19:00</li>
+                <li class="contacts__address-item">Сб 10:00 - 17:00</li>
+                <li class="contacts__address-item">Вс: выходной</li>
+              </ul>
+              <ul class="contacts__social">
+                <li class="contacts__social-item">
+                  <a  class="contact__social-link contact__social-link--instagram" href="#">instagram</a>
+                </li>
+                <li class="contacts__social-item">
+                  <a class="contact__social-link contact__social-link--youtube" href="#">you-tube</a>
+                </li>
+                <li class="contacts__social-item">
+                  <a class="contact__social-link contact__social-link--whatsapp" href="#">whats-app</a>
+
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section> 
+     <footer class="footer">
+      <div class="container">
+        <div class="footer__nav"></div>
+        <a href="" class="logo">
+          <img src="" alt="" class="logo__img">
+        </a>
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a href="" class="nav__link">О нас</a>
+          </li>
+          <li class="nav__item">
+            <a href="" class="nav__link">Услуги и цены</a>
+          </li>
+          <li class="nav__item">
+            <a href="" class="nav__link">Фотоальбом</a>
+          </li>
+          <li class="nav__item">
+            <a href="" class="nav__link">Контакты</a>
+          </li>
+          <li class="nav__item">
+            <button class="footer_btn">Заказать звонок</button>
+          </li>
+        </ul>
+        <a href="" class="footer__copy">
+          Соглашение на обработку персональных данных
+        </a>
+        <a href="" class="footer__copy">Политика конфенденциальности</a>
+      </div>
+      </div>
+    </footer>
   </body>
 </html>

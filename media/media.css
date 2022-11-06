@@ -1,0 +1,53 @@
+@media screen and (max-width: 1224px) {
+  .class {
+    display: block;
+  }
+}
+/* при використанні данного медіа запита стилі будуть примінятись коли розмір екрану буде меньшим ніж 1224px */
+
+@media screen and (max-width: 992px) {
+  .class {
+    display: block;
+  }
+}
+
+/* при використанні данного медіа запита стилі будуть примінятись коли розмір екрану буде меньшим ніж 992px */
+
+@media screen and (max-width: 768px) {
+  .class {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .class {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .class {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .class {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .class {
+    display: block;
+  }
+}
+
+/* Коли верстка йде за принципом mobile-first! */
+@media screen and (min-width: 320px) {
+  .class {
+    display: block;
+  }
+}
+
+/* при використанні данного медіа запита стилі будуть примінятись коли розмір екрану буде більшим  ніж 320px */

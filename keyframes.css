@@ -1,0 +1,43 @@
+.home__link {
+  position: relative;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 25px;
+  display: block;
+  text-align: center;
+}
+
+.home__link::before {
+  content: "";
+  position: absolute;
+  width: 37px;
+  height: 21px;
+  background-image: url(./img/arrow-d.svg);
+  /* top: 55px; */
+  left: 50%;
+  transform: translate(-50%, -50%);
+  animation-name: arrow;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+/* @keyframes arrow {
+  from {
+    top: 40px;
+  }
+  to {
+    top: 70px;
+  }
+} */
+/* keyframes це один цикил нашої анімації від початку до кінця */
+@keyframes arrow{
+  0%{
+    top: 40px;
+  }
+  50%{
+    top: 70px;
+  }
+  100%{
+    top: 40px;
+  }
+}
