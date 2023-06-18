@@ -1,33 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
     <title>mirage</title>
-</head>
-<body>
-    <section class="home" >
-        <div class="container">
-        <a class="logo" href="#" >
-            <img class="logo__img" src="./img/logo.png" alt="logo" >
-        </a>
-        <ul class="home__list">
+  </head>
+  <body>
+    <section class="home">
+      <div class="container">
+        <nav class="nav">
+          <a class="logo" href="#">
+            <img class="logo__img" src="./img/logo.png" alt="logo" />
+          </a>
+          <div class="nav__inner">
+          <ul class="home__list">
             <li class="home__item">
-                <a class="home__link" href="#" >Home</a>
+              <a class="home__link" href="#">Home</a>
             </li>
             <li class="home__item">
-                <a class="home__link" href="#" >About</a>
+              <a class="home__link" href="#">About</a>
             </li>
             <li class="home__item">
-                <a class="home__link" href="#" >Product</a>
+              <a class="home__link" href="#">Product</a>
             </li>
             <li class="home__item">
-                <a class="home__link" href="#" >Pricing</a>
+              <a class="home__link" href="#">Pricing</a>
             </li>
-        </ul>
-    </div>
+          </ul>
+          <button class="home__btn" >
+            <img class="home__menu" src="./img/svg/Menu.svg" alt="menu" />
+          </button>
+        </div>
+        </nav>
+        <div class="home__inner">
+          <div class="home__inner-item">
+            <h1 class="home__title">__Creative Agency</h1>
+            <h2 class="home__subtitle">We Deliver The Best Product for You</h2>
+            <p class="home__text">
+              Design is the creation of a plan or convention for the
+              construction of an object or a system as in architectural
+              blueprints, engineering drawings, business processes,
+            </p>
+            <button class="btn">Get started</button>
+          </div>
+          <img class="home__img" src="./img/img.png" alt="" />
+        </div>
+      </div>
     </section>
-</body>
+  </body>
 </html>

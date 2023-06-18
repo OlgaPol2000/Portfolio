@@ -1,0 +1,188 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+ol,
+ul,
+menu {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+html,
+body {
+  scroll-behavior: smooth;
+}
+:root {
+  --primary: #fff;
+  --black: #081800;
+  --green: #51c815;
+  --black2: #101c02;
+  --black3: #121e03;
+  --beige: #f7ffec;
+}
+body {
+  /* шрифти берем з макету */
+  font-style: normal;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+}
+
+.container {
+  max-width: 1230px;
+  /* максимальна ширина береться з макету */
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.background__green {
+  background-color: var(--beige);
+  height: 100vh;
+  width: 45%;
+  position: absolute;
+  z-index: -1;
+}
+
+.header {
+  padding-top: 40px;
+  margin-bottom: 85px;
+}
+.header__inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header__list {
+  display: flex;
+  align-items: center;
+}
+.header__item {
+  margin-right: 45px;
+}
+.header__item:last-child {
+  margin-right: 0;
+}
+.header__link {
+  font-size: 18px;
+  line-height: 130%;
+  color: var(--black2);
+}
+.header__link:hover {
+  color: var(--green);
+}
+
+.header__item:hover {
+  color: var(--green);
+}
+.primary__btn {
+  background-color: var(--black);
+  cursor: pointer;
+  border: none;
+  font-size: 18px;
+  line-height: 130%;
+  color: var(--primary);
+  padding: 20px 30px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  position: relative;
+  box-shadow: 8px 8px 0px var(--green);
+}
+
+/* home */
+.home__inner {
+  display: flex;
+  justify-content: space-between;
+}
+.home__img {
+  max-width: 485px;
+  width: 100%;
+  object-fit: cover;
+}
+.home__title {
+  font-weight: 800;
+  font-size: 80px;
+  line-height: 130%;
+  color: var(--green);
+}
+.home__subtitle {
+  font-weight: 800;
+  font-size: 60px;
+  line-height: 130%;
+  margin-bottom: 35px;
+}
+.home__descr {
+  margin-left: 185px;
+}
+.home__text {
+  font-size: 18px;
+  line-height: 160%;
+  margin-bottom: 45px;
+}
+.home__List {
+  margin-top: 74px;
+}
+.home--btn {
+  margin-bottom: 74px;
+}
+.home__list {
+  display: flex;
+  justify-content: space-between;
+}
+.home__number {
+  font-size: 43px;
+  line-height: 140%;
+  color: var(--green);
+}
+.home__number-descr {
+  font-size: 18px;
+  line-height: 160%;
+  color: var(--black);
+}
+
+/* lungs */
+.lungs {
+  padding-top: 130px;
+}
+.lungs__inner {
+  display: flex;
+}
+.lungs__world {
+  margin-right: 60px;
+}
+.lungs__title {
+  max-width: 520px;
+  font-weight: 800;
+  font-size: 57px;
+  line-height: 140%;
+  margin-bottom: 60px;
+  color: #081800;
+}
+
+.world__img {
+  background-color: #f7ffec;
+  padding: 45px;
+}
+
+.description__img {
+  background-color: #f7ffec;
+}
+
+.lungs__subtitle {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 160%;
+  color: #081800;
+  opacity: 0.6;
+  padding-top: 40px;
+  margin-bottom: 30px;
+}
